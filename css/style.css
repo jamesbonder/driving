@@ -1,0 +1,6 @@
+/* line 1, ../scss/style.scss */
+body {
+  background: url("../bg.png") repeat;
+  width: 100%;
+  height: 100%;
+}
