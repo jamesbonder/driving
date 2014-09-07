@@ -37,7 +37,7 @@ h1 {
 .links {
   border-top: 1px solid #B6B6B6;
   border-bottom: 1px solid #B6B6B6;
-  margin: 0px 2% 20px 2%;
+  margin: 0px 2% 10px 2%;
 }
 
 /* line 37, ../scss/style.scss */
@@ -75,151 +75,131 @@ select {
 }
 
 /* line 69, ../scss/style.scss */
-section#layer2 {
-  margin-bottom: 1%;
-  float: left;
-  width: 100%;
-  margin-top: 20px;
+.grid {
+  height: 700px;
+  margin: 10px 2% 20px 2%;
 }
 
 /* line 76, ../scss/style.scss */
-.home-wrap {
-  width: 97%;
-  max-width: 1250px;
-  margin: auto;
-  padding-bottom: 1%;
-  border-bottom: 1px solid #DFDFDF;
+.masonry {
+  height: 700px;
+  background: #EEE;
+  width: 100%;
+  max-width: 89em;
+  margin: 0 auto;
 }
 
 /* line 84, ../scss/style.scss */
-.one {
-  position: relative;
-  width: 32z%;
-  float: left;
-  margin: 0 .5%;
-}
-
-/* line 91, ../scss/style.scss */
-.two {
-  position: relative;
-  width: 33%;
-  cursor: pointer;
-  float: left;
-  margin: 0 .5%;
-}
-
-/* line 99, ../scss/style.scss */
-.three {
-  position: relative;
-  width: 33%;
-  float: left;
-  margin: 0 .5%;
-}
-
-/* line 108, ../scss/style.scss */
-.masonry {
-  background: #EEE;
-  max-width: 640px;
-}
-
-/* line 113, ../scss/style.scss */
 .masonry .item {
   width: 100%;
-  height: 60px;
+  height: 200px;
   float: left;
   background: #D26;
-  border: 2px solid #333;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  margin: 2px;
 }
 
-/* line 123, ../scss/style.scss */
-.item.w2 {
-  width: 120px;
+/* line 92, ../scss/style.scss */
+.item.one {
+  width: 33em;
 }
 
-/* line 124, ../scss/style.scss */
-.item.w3 {
-  width: 180px;
+/* line 93, ../scss/style.scss */
+.item.two {
+  width: 15em;
 }
 
-/* line 125, ../scss/style.scss */
-.item.w4 {
-  width: 240px;
+/* line 94, ../scss/style.scss */
+.item.three {
+  width: 30em;
 }
 
-/* line 127, ../scss/style.scss */
-.item.h2 {
-  height: 100px;
+/* line 95, ../scss/style.scss */
+.item.four {
+  width: 330px;
 }
 
-/* line 128, ../scss/style.scss */
-.item.h3 {
-  height: 130px;
+/* line 96, ../scss/style.scss */
+.item.five {
+  width: 280px;
 }
 
-/* line 129, ../scss/style.scss */
-.item.h4 {
-  height: 180px;
+/* line 97, ../scss/style.scss */
+.item.six {
+  width: 460px;
+}
+
+/* line 98, ../scss/style.scss */
+.item.seven {
+  width: 320px;
 }
 
 @media (max-width: 1550px) {
-  /* line 133, ../scss/style.scss */
+  /* line 103, ../scss/style.scss */
   .container {
     width: 100%;
     margin: 0 auto;
   }
 }
 @media (min-width: 1350px) {
-  /* line 143, ../scss/style.scss */
+  /* line 113, ../scss/style.scss */
   .links {
+    margin: 0px 5% 10px 5%;
+  }
+
+  /* line 117, ../scss/style.scss */
+  .grid {
     margin: 0px 5% 0px 5%;
   }
 }
 @media (min-width: 1550px) {
-  /* line 149, ../scss/style.scss */
+  /* line 123, ../scss/style.scss */
   .links {
+    margin: 0px 9% 10px 9%;
+  }
+
+  /* line 127, ../scss/style.scss */
+  .grid {
     margin: 0px 9% 0px 9%;
   }
 }
 @media (max-width: 800px) {
-  /* line 155, ../scss/style.scss */
+  /* line 133, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 8px 0px 8px;
   }
 
-  /* line 160, ../scss/style.scss */
+  /* line 138, ../scss/style.scss */
   .links ul a {
     padding: 8px 15px;
   }
 }
 @media (max-width: 600px) {
-  /* line 166, ../scss/style.scss */
+  /* line 144, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 6px 0px 6px;
   }
 
-  /* line 171, ../scss/style.scss */
+  /* line 149, ../scss/style.scss */
   .links ul a {
     padding: 8px 8px;
   }
 }
 @media (max-width: 510px) {
-  /* line 177, ../scss/style.scss */
+  /* line 155, ../scss/style.scss */
   .links ul {
     display: none;
   }
 
-  /* line 181, ../scss/style.scss */
+  /* line 159, ../scss/style.scss */
   select {
     display: block;
     height: 50px;
   }
 }
 @media (min-width: 510px) {
-  /* line 188, ../scss/style.scss */
+  /* line 166, ../scss/style.scss */
   select {
     display: none;
   }
