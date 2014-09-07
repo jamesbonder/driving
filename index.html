@@ -20,13 +20,49 @@
 <body>
 
 	<div class="container">
-		<header>
-		<header class="information">
-			<div class="logo"></div>
-		<h1>Driving<br>Solihull</h1>
+		<header class="head">
+		<h1>Driving Solihull</h1>
+				</header>
 		<nav class="links">
 			<ul>
-				<li><a href="#"></a></li><span>/</span>
-				<li><a href="#"></a></li>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">PRICES</a></li>
+				<li><a href="#">CONTACT</a></li>
 			</ul>
-		</header>
+
+		</nav>
+
+</div>
+
+</body>
+
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="javascripts/tabs.js"></script>
+<script>
+
+	// Responsive dropdown menu 
+	// Create the dropdown base
+		$("<select />").appendTo("nav");
+
+	// Create default option "Go to..."
+		$("<option />", {
+   		"selected": "selected",
+   		"value"   : "",
+   		"text"    : "Navigate to..."
+}		).appendTo("nav links");
+
+	// Populate dropdown with menu items
+		$("nav a").each(function() {
+ 		var el = $(this);
+ 		$("<option />", {
+    	 "value"   : el.attr("href"),
+    	 "text"    : el.text()
+ 		}).appendTo("select");
+});
+
+		$("nav select").change(function() {
+  window.location = $(this).find("option:selected").val();
+});
+</script>
+</html>
