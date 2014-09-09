@@ -77,6 +77,7 @@ select {
 /* line 69, ../scss/style.scss */
 #grid {
   /* Prevent vertical gaps */
+  position: absolute;
   width: 97%;
   margin: 0 auto;
   line-height: 0;
@@ -88,7 +89,7 @@ select {
   column-gap: 0px;
 }
 
-/* line 83, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 #grid img {
   /* Just in case there are inline attributes */
   width: 100% !important;
@@ -96,9 +97,10 @@ select {
   margin: 0px 5px 0px 5px;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 #grid2 {
   /* Prevent vertical gaps */
+  position: absolute;
   width: 97%;
   margin: 0 auto;
   line-height: 0;
@@ -110,7 +112,7 @@ select {
   column-gap: 0px;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 #grid2 img {
   /* Just in case there are inline attributes */
   width: 100% !important;
@@ -119,61 +121,61 @@ select {
 }
 
 @media (max-width: 1550px) {
-  /* line 112, ../scss/style.scss */
+  /* line 114, ../scss/style.scss */
   .container {
     margin: 0 auto;
   }
 }
 @media (min-width: 1350px) {
-  /* line 122, ../scss/style.scss */
+  /* line 124, ../scss/style.scss */
   .container {
     width: 85%;
   }
 }
 @media (min-width: 1550px) {
-  /* line 130, ../scss/style.scss */
+  /* line 132, ../scss/style.scss */
   .container {
     width: 75%;
   }
 }
 @media (max-width: 800px) {
-  /* line 136, ../scss/style.scss */
+  /* line 138, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 8px 0px 8px;
   }
 
-  /* line 141, ../scss/style.scss */
+  /* line 143, ../scss/style.scss */
   .links ul a {
     padding: 8px 15px;
   }
 }
 @media (max-width: 600px) {
-  /* line 147, ../scss/style.scss */
+  /* line 149, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 6px 0px 6px;
   }
 
-  /* line 152, ../scss/style.scss */
+  /* line 154, ../scss/style.scss */
   .links ul a {
     padding: 8px 8px;
   }
 }
 @media (max-width: 510px) {
-  /* line 158, ../scss/style.scss */
+  /* line 160, ../scss/style.scss */
   .links ul {
     display: none;
   }
 
-  /* line 162, ../scss/style.scss */
+  /* line 164, ../scss/style.scss */
   select {
     display: block;
     height: 50px;
   }
 }
 @media (min-width: 510px) {
-  /* line 169, ../scss/style.scss */
+  /* line 171, ../scss/style.scss */
   select {
     display: none;
   }

@@ -68,6 +68,7 @@ select{
 
 #grid {
    /* Prevent vertical gaps */
+   position:absolute;
    	width:97%;
 	margin:0 auto;
    line-height: 0;
@@ -89,9 +90,10 @@ select{
 
 #grid2 {
    /* Prevent vertical gaps */
+    position:absolute;
    	width:97%;
 	margin:0 auto;
-   line-height: 0;
+    line-height: 0;
    
    -webkit-column-count: 3;
    -webkit-column-gap:   0px;
