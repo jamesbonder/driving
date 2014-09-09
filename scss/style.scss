@@ -72,6 +72,27 @@ select{
 	margin:0 auto;
    line-height: 0;
    
+   -webkit-column-count: 2;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    2;
+   -moz-column-gap:      0px;
+   column-count:         2;
+   column-gap:           0px;
+   
+}
+#grid img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin:0px 5px 0px 5px;
+}
+
+#grid2 {
+   /* Prevent vertical gaps */
+   	width:97%;
+	margin:0 auto;
+   line-height: 0;
+   
    -webkit-column-count: 3;
    -webkit-column-gap:   0px;
    -moz-column-count:    3;
@@ -80,12 +101,12 @@ select{
    column-gap:           0px;
    
 }
-#grid img {
+#grid2 img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  margin:1px 5px 0px 5px;
 }
-
 
 @media (max-width:1550px){
 	.container{
