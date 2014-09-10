@@ -127,7 +127,7 @@ select {
 
 /* line 115, ../scss/style.scss */
 .third3 {
-  width: 32.8%;
+  width: 33.2%;
   height: 300px;
   float: left;
   margin: 4px 0px 0px 0px;
@@ -135,113 +135,129 @@ select {
   background-size: cover;
 }
 
+@media (max-width: 1070px) {
+  /* line 127, ../scss/style.scss */
+  .third3 {
+    width: 32.8%;
+  }
+}
 @media (max-width: 550px) {
-  /* line 129, ../scss/style.scss */
+  /* line 133, ../scss/style.scss */
   .half1 {
     width: 100%;
     max-height: 250px;
   }
 
-  /* line 134, ../scss/style.scss */
+  /* line 138, ../scss/style.scss */
   .half2 {
     width: 100%;
     margin-top: 4px;
     max-height: 250px;
   }
-}
-@media (max-width: 750px) {
-  /* line 142, ../scss/style.scss */
+
+  /* line 143, ../scss/style.scss */
   .third1 {
-    width: 49%;
-    height: 300px;
-    float: left;
-    margin: 4px 3px 0px 0px;
-    background-image: url("http://i.imgur.com/Jr75erY.jpg");
-    background-size: cover;
+    width: 40%;
   }
 
-  /* line 151, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .third2 {
     width: 49%;
+  }
+}
+@media (max-width: 750px) {
+  /* line 153, ../scss/style.scss */
+  .third1 {
+    width: 49.8%;
     height: 300px;
     float: left;
-    margin: 4px 0px 0px 0px;
+    margin: 2px 2px 0px 0px;
     background-image: url("http://i.imgur.com/Jr75erY.jpg");
     background-size: cover;
   }
 
-  /* line 159, ../scss/style.scss */
+  /* line 162, ../scss/style.scss */
+  .third2 {
+    width: 49.8%;
+    height: 300px;
+    float: left;
+    margin: 2px 0px 0px 0px;
+    background-image: url("http://i.imgur.com/Jr75erY.jpg");
+    background-size: cover;
+  }
+
+  /* line 170, ../scss/style.scss */
   .third3 {
     display: none;
   }
 }
 @media (max-width: 1550px) {
-  /* line 166, ../scss/style.scss */
+  /* line 177, ../scss/style.scss */
   .container {
     margin: 0 auto;
   }
 }
 @media (min-width: 1250px) {
-  /* line 173, ../scss/style.scss */
+  /* line 184, ../scss/style.scss */
   .grid {
     max-height: 320px;
   }
 }
 @media (min-width: 1350px) {
-  /* line 180, ../scss/style.scss */
+  /* line 191, ../scss/style.scss */
   .container {
     width: 85%;
   }
 }
 @media (min-width: 1550px) {
-  /* line 188, ../scss/style.scss */
+  /* line 199, ../scss/style.scss */
   .container {
     width: 75%;
   }
 }
 @media (max-width: 800px) {
-  /* line 194, ../scss/style.scss */
+  /* line 205, ../scss/style.scss */
   .container {
     margin: 0 auto;
   }
 
-  /* line 197, ../scss/style.scss */
+  /* line 208, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 8px 0px 8px;
   }
 
-  /* line 202, ../scss/style.scss */
+  /* line 213, ../scss/style.scss */
   .links ul a {
     padding: 8px 15px;
   }
 }
 @media (max-width: 600px) {
-  /* line 208, ../scss/style.scss */
+  /* line 219, ../scss/style.scss */
   .links li {
     display: inline;
     margin: 0px 6px 0px 6px;
   }
 
-  /* line 213, ../scss/style.scss */
+  /* line 224, ../scss/style.scss */
   .links ul a {
     padding: 8px 8px;
   }
 }
 @media (max-width: 510px) {
-  /* line 219, ../scss/style.scss */
+  /* line 230, ../scss/style.scss */
   .links ul {
     display: none;
   }
 
-  /* line 223, ../scss/style.scss */
+  /* line 234, ../scss/style.scss */
   select {
     display: block;
     height: 50px;
   }
 }
 @media (min-width: 510px) {
-  /* line 230, ../scss/style.scss */
+  /* line 241, ../scss/style.scss */
   select {
     display: none;
   }
